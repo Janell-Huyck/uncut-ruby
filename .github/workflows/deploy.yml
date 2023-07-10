@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy Rails App
-        uses: appleboy/ssh-action@master
+        uses: appleboy/ssh-action@v.0.1.3
         with:
           host: ${{secrets.SSH_HOST}} # IP address of the server you wish to SSH into
           key: ${{secrets.SSH_KEY}} # Private or public key of the server
