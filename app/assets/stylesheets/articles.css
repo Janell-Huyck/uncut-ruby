@@ -1,0 +1,10 @@
+.article-text-editor {
+    box-sizing: border-box;
+    width: 90%;
+    height: 500px; /* Adjust this based on your preference */
+    resize: vertical; /* Allow users to manually adjust the height if needed */
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1em;
+  }  
